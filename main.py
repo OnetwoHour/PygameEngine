@@ -43,7 +43,7 @@ def game_loop():
                 sys.exit()
 
         camera.update()
-        ground, underground = generate_ground(ground, underground, (camera.x, camera.y))
+        ground, underground = generate_ground(ground, (camera.x, camera.y))
         ground_sprites = pygame.sprite.Group(*ground)
         underground_sprites = pygame.sprite.Group(*underground)
         ground_sprites.update((camera.x, camera.y))
