@@ -64,7 +64,7 @@ class Underground(Ground):
 
 value_probability = ((50, 30, 20), (25, 50, 25), (20, 30, 50))
 
-def generate_ground(ground = [], underground = [], pos = (0, 0)):
+def generate_ground(ground = [], pos = (0, 0)):
 
     if not ground:
         ground.append(Rectangle((350, 200), 0, (350, 200)))
