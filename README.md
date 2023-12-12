@@ -20,7 +20,7 @@ This project is a Pygame-based game engine developed for Lecture of the Introduc
 
 1. Clone the project.
    ```bash
-   git clone https://github.com/your-username/pygame-game-engine.git
+   git clone https://github.com/OnetwoHour/PygameEngine
 
 2. Install require package.
    ```bash
