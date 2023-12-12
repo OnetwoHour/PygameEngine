@@ -1,5 +1,5 @@
 import pygame
-import pygame
+import sys
 from camera import *
 from mobs import *
 from ground import *
@@ -40,7 +40,7 @@ def game_loop():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
-                quit()
+                sys.exit()
 
         camera.update()
         ground, underground = generate_ground(ground, underground, (camera.x, camera.y))
